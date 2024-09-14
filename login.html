@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiveMyRoom</title>
+    <link rel="shortcut icon" type="x-icon" href="images/tab_logo.png">
+    <link href="https://www.marcellosurdi.name/demo/_shared/css/demo.min.css" rel="stylesheet">
+    <link href="./css/date-time-picker-component.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/screens.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://www.marcellosurdi.name/demo/_shared/css/demo.min.css" rel="stylesheet">
+    <link href="css/date-time-picker-component.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/p-c-b.css">
+    <link rel="stylesheet" href="css/search-box.css">
+    <link rel="stylesheet" href="css/searchbar.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="">
+        <div class="main_menu">
+            <div class="menu_icon">
+                <a href="#" class="openbtn" onclick="openNav()"><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <div class="logo">
+                <a href="givemyroom.com/"><img src="images/logo-main.png" alt="logo"></a>
+            </div>
+            <div id="google_element"></div>
+        </div>
+    </header>
+    <section id="header_menu">
+        <div id="mySidebar" class="sidebar">
+            <ul class="menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <li><a href="givemyroom.com/">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="reg.html">Register</a></li>
+                <li><a href="#">For Hotel Owners</a></li>
+                <li><a href="#">For Customers</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h1>Congratulations</h1>
+                    <p>We have 9 accomodations in that area.</p>
+                </div>
+                
+                <div class="pinned-map">
+                    <img src="images/map.png">
+                </div>
+
+                <form class="reg-form">
+                    <h2>Log in and send your offer</h2>
+
+                    <input class="dotted" type="text" maxlength="15" name="Username" placeholder="username">
+                    <input class="dotted" type="password" maxlength="20" name="password" placeholder="password">
+                    <div class="radio-login">
+                        <input type="radio" name="myRadio" value="option1" class="radio__input_login" id="myRadio1" />
+                        <label class="radio__label_login" for="myRadio1"><p>Owner</p></label>
+                        
+                        <input type="radio" name="myRadio" value="option2" class="radio__input_login" id="myRadio2" />
+                        <label class="radio__label_login" for="myRadio2"><p>Buyer</p>
+                        </label>
+                    </div>
+                    <input class="login" type="submit" value="Login">
+                    <a href="reg.html">Create New Account</a>
+                    <a href="#">
+                        <img src="images/gmail-icon.png" alt="">
+                        <span>Sign in with GMAIL</span>
+                    </a>
+                    <a href="#">
+                        <img src="images/Fb-icon.png" alt="">
+                        <span>Sign in with FACEBOOK</span>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_logo">
+                <a href="givemyroom.com/"><img src="images/logo-main.png" alt=""></a>
+                <div class="address">
+                    Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit.
+                </div>
+                <p>+0123456789</p>
+            </div>
+            <div class="footer_menu">
+                <div>
+                    <ul>
+                        <li>Main Navigation</li>
+                        <li><a href="#">option1</a></li>
+                        <li><a href="#">option2</a></li>
+                        <li><a href="#">option3</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Information For</li>
+                        <li><a href="#">option1</a></li>
+                        <li><a href="#">option2</a></li>
+                        <li><a href="#">option3</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Quick Links</li>
+                        <li><a href="#">option1</a></li>
+                        <li><a href="#">option2</a></li>
+                        <li><a href="#">option3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./js/date-time-picker-component.min.js"></script>
+    <script>
+        new DateTimePickerComponent.DatePicker('select_date');
+        new DateTimePickerComponent.DatePicker('select_date2');
+
+        const it = {
+            'jan': 'Gen',
+            'feb': 'Feb',
+            'mar': 'Mar',
+            'apr': 'Apr',
+            'may': 'Mag',
+            'jun': 'Giu',
+            'jul': 'Lug',
+            'aug': 'Ago',
+            'sep': 'Set',
+            'oct': 'Ott',
+            'nov': 'Nov',
+            'dec': 'Dic',
+            'jan_': 'Gennaio',
+            'feb_': 'Febbraio',
+            'mar_': 'Marzo',
+            'apr_': 'Aprile',
+            'may_': 'Maggio',
+            'jun_': 'Giugno',
+            'jul_': 'Luglio',
+            'aug_': 'Agosto',
+            'sep_': 'Settembre',
+            'oct_': 'Ottobre',
+            'nov_': 'Novembre',
+            'dec_': 'Dicembre',
+            'mon': 'Lun',
+            'tue': 'Mar',
+            'wed': 'Mer',
+            'thu': 'Gio',
+            'fri': 'Ven',
+            'sat': 'Sab',
+            'sun': 'Dom',
+            'mon_': 'Lunedì',
+            'tue_': 'Martedì',
+            'wed_': 'Mercoledì',
+            'thu_': 'Giovedì',
+            'fri_': 'Venerdì',
+            'sat_': 'Sabato',
+            'sun_': 'Domenica',
+            'done': 'Imposta'
+        };
+
+//        new DateTimePickerComponent.DateTimePicker('select_datetime', {
+//            start_date: "2030-03-22T14:30:00",
+//            last_date: new Date(2030, 2, 29, 22, 30),
+//            first_day_no: 1,
+//            l10n: it,
+//        });
+
+
+
+
+
+//        new DateTimePickerComponent.DateRangePicker('start_date', 'end_date', {
+//            min_range_hours: 48,
+//        });
+
+//        new DateTimePickerComponent.DateTimeRangePicker('start_date_time', 'end_date_time', {
+//            first_date: "2030-01-02T10:30:00",
+//            start_date: "2030-01-05T16:00:00",
+//            end_date: "2030-01-06T18:00:00",
+//            last_date: new Date(2030, 0, 29, 14, 0),
+//            first_day_no: 1,
+//            round_to: 5,
+//            date_output: "timestamp",
+//            styles: {
+//                active_background: '#e34c26',
+//                active_color: '#fff',
+//                inactive_background: '#0366d9',
+//                inactive_color: '#fff'
+//            },
+//            min_range_hours: 18
+//        });
+
+    </script>
+    
+    <script>
+
+        function loadGoogleTranslate(){
+            new google.translate.TranslateElement("google_element");
+        }
+        
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+</body>
+</html>
